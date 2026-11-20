@@ -32,9 +32,9 @@
   }).join(""));
 
   /* ---------- contenido del reverso ---------- */
-  // Equipo en una línea discreta: "Oihan, programador · Alex, programador · Pablo, artista 3D"
+  // Equipo en una línea discreta: "Oihan — Game Designer & Developer · ..."
   $("#credits").innerHTML = (C.team || [])
-    .map((p) => "<span><b>" + esc(p.name) + "</b>" + (p.role ? ", " + esc(p.role.charAt(0).toLowerCase() + p.role.slice(1)) : "") + "</span>").join(" &nbsp;·&nbsp; ");
+    .map((p) => "<span><b>" + esc(p.name) + "</b>" + (p.role ? " — " + esc(p.role) : "") + "</span>").join(" &nbsp;·&nbsp; ");
   if (C.email) {
     $("#mail").textContent = C.email;
     $("#mail").href = "mailto:" + C.email;

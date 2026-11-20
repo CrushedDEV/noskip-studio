@@ -18,33 +18,33 @@ window.NOSKIP = {
     {
       name: "KAIROS: The Last Runner",
       status: "En desarrollo",
-      text: "Nuestro proyecto principal. El juego que hemos traído al evento.",   // CAMBIAR por una descripción real
-      genre: "",                                                               // CAMBIAR, ej. "Acción · PC"
+      text: "Nuestro proyecto principal. El juego que hemos traído al evento.",
+      genre: "",
       color: "#9b1df6",
       url: "",
     },
     {
-      name: "Hollow Signal",                                                    // EJEMPLO, CAMBIAR
+      name: "Studio With Friends",
       status: "En desarrollo",
-      text: "Una estación de radio abandonada y una señal que no debería existir.", // EJEMPLO
-      genre: "Terror · Puzles",                                                // EJEMPLO
-      color: "#ff2bd6",
+      text: "",                 // añade una frase de presentación
+      genre: "",
+      color: "#2e5cff",
       url: "",
     },
     {
-      name: "Neon Drift",                                                       // EJEMPLO, CAMBIAR
+      name: "NightShift",
       status: "En desarrollo",
-      text: "Carreras arcade por una ciudad que se reconstruye en cada vuelta.",   // EJEMPLO
-      genre: "Arcade · Carreras",                                              // EJEMPLO
-      color: "#2e5cff",
+      text: "",                 // añade una frase de presentación
+      genre: "Terror",
+      color: "#ff2b5c",
       url: "",
     },
   ],
 
   team: [
-    { name: "Oihan", role: "Programador" },
-    { name: "Alex", role: "Programador" },
-    { name: "Pablo", role: "Artista 3D" },
+    { name: "Oihan", role: "Game Designer & Developer" },
+    { name: "Alex", role: "Game Designer & Developer" },
+    { name: "Pablo", role: "3D Artist" },
   ],
 
   links: [
