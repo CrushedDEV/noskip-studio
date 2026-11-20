@@ -332,8 +332,9 @@ html.is-intro .front-foot,
 html.is-intro .hint,
 html.is-intro .save,
 html.is-intro .deck-nav,
-html.is-intro .g-slot,
 html.is-intro .marks { opacity: 0; }
+/* las cartas de juego: ocultas durante la intro (la baraja les pone la opacidad desde JS) */
+html.is-intro .g-slot { opacity: 0 !important; visibility: hidden; }
 
 /* entrada sin intro (visitas repetidas): solo un fundido */
 html.enter .card { animation: fade-in .7s var(--out) backwards; }
